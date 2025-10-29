@@ -1,0 +1,79 @@
+"IV","candidate_DV","against_DV","Coefficient","CI","z","p.adj"
+"Travel Speed (MPH)","Physical Decline","Low Informational Support",-0.109,"[-0.169, -0.049]",-3.561,0.0037
+"Travel Speed (MPH)","Physical Decline","Low Instrumental Support",-0.099,"[-0.157, -0.04]",-3.294,0.0099
+"Travel Speed (MPH)","Physical Decline","Low Emotional Support",-0.086,"[-0.145, -0.028]",-2.888,0.0388
+"Number of Days Driving","Physical Decline","Cognitive Decline",-0.113,"[-0.159, -0.066]",-4.769,0
+"Number of Days Driving","Physical Decline","Fatigue",-0.059,"[-0.099, -0.019]",-2.907,0.0365
+"Number of Days Driving","Physical Decline","Anxiety",-0.121,"[-0.169, -0.073]",-4.936,0
+"Number of Days Driving","Physical Decline","Depression",-0.106,"[-0.153, -0.06]",-4.468,0.0001
+"Number of Days Driving","Physical Decline","Anger",-0.154,"[-0.202, -0.106]",-6.286,0
+"Number of Days Driving","Physical Decline","Role Constraints",-0.085,"[-0.125, -0.045]",-4.148,0.0003
+"Number of Days Driving","Physical Decline","Low Informational Support",-0.083,"[-0.134, -0.033]",-3.226,0.0125
+"Number of Days Driving","Physical Decline","Low Instrumental Support",-0.107,"[-0.157, -0.058]",-4.238,0.0002
+"Number of Days Driving","Physical Decline","Low Emotional Support",-0.09,"[-0.139, -0.04]",-3.564,0.0037
+"Number of Left Turns","Physical Decline","Cognitive Decline",-0.079,"[-0.127, -0.031]",-3.24,0.012
+"Number of Left Turns","Physical Decline","Anxiety",-0.076,"[-0.126, -0.026]",-2.996,0.0274
+"Number of Left Turns","Physical Decline","Anger",-0.098,"[-0.148, -0.049]",-3.881,0.001
+"Total Miles","Social Isolation","Anger",-0.078,"[-0.119, -0.037]",-3.718,0.002
+"Miles Per Chain","Depression","Physical Decline",-0.09,"[-0.138, -0.042]",-3.665,0.0025
+"Minutes Per Trip","Physical Decline","Cognitive Decline",0.144,"[0.096, 0.192]",5.937,0
+"Minutes Per Trip","Physical Decline","Fatigue",0.085,"[0.044, 0.125]",4.065,0.0005
+"Minutes Per Trip","Physical Decline","Anxiety",0.142,"[0.092, 0.191]",5.626,0
+"Minutes Per Trip","Physical Decline","Depression",0.145,"[0.097, 0.193]",5.965,0
+"Minutes Per Trip","Physical Decline","Anger",0.108,"[0.058, 0.157]",4.276,0.0002
+"Minutes Per Trip","Physical Decline","Role Constraints",0.087,"[0.046, 0.128]",4.153,0.0003
+"Minutes Per Trip","Physical Decline","Low Informational Support",0.122,"[0.071, 0.174]",4.62,0
+"Minutes Per Trip","Physical Decline","Low Instrumental Support",0.151,"[0.1, 0.202]",5.839,0
+"Minutes Per Trip","Physical Decline","Low Emotional Support",0.147,"[0.097, 0.198]",5.703,0
+"Minutes Per Trip","Physical Decline","Social Isolation",0.146,"[0.098, 0.194]",5.934,0
+"Miles Per Trip","Anxiety","Physical Decline",-0.085,"[-0.135, -0.034]",-3.251,0.0115
+"Percentage of Trips AM Rush Hour","Physical Decline","Cognitive Decline",-0.075,"[-0.122, -0.028]",-3.138,0.017
+"Percentage of Trips AM Rush Hour","Physical Decline","Low Informational Support",-0.087,"[-0.138, -0.036]",-3.318,0.0091
+"Percentage of Trips PM Rush Hour","Role Constraints","Cognitive Decline",0.098,"[0.057, 0.14]",4.669,0
+"Percentage of Trips PM Rush Hour","Role Constraints","Physical Decline",0.065,"[0.024, 0.105]",3.096,0.0196
+"Percentage of Trips PM Rush Hour","Role Constraints","Anxiety",0.071,"[0.03, 0.112]",3.366,0.0076
+"Percentage of Trips PM Rush Hour","Role Constraints","Depression",0.092,"[0.05, 0.134]",4.311,0.0002
+"Percentage of Trips PM Rush Hour","Role Constraints","Anger",0.088,"[0.046, 0.129]",4.17,0.0003
+"Percentage of Trips PM Rush Hour","Role Constraints","Social Isolation",0.097,"[0.059, 0.136]",5.008,0
+"Percentage of Trips PM Rush Hour","Role Constraints","Low Informational Support",0.145,"[0.096, 0.194]",5.832,0
+"Percentage of Trips PM Rush Hour","Role Constraints","Low Emotional Support",0.137,"[0.09, 0.184]",5.718,0
+"Percentage of Trips PM Rush Hour","Role Constraints","Low Instrumental Support",0.082,"[0.036, 0.129]",3.458,0.0054
+"Total Trip Chains","Physical Decline","Cognitive Decline",-0.1,"[-0.148, -0.052]",-4.1,0.0004
+"Total Trip Chains","Physical Decline","Fatigue",-0.065,"[-0.105, -0.024]",-3.095,0.0197
+"Total Trip Chains","Physical Decline","Anxiety",-0.089,"[-0.139, -0.04]",-3.538,0.004
+"Total Trip Chains","Physical Decline","Depression",-0.081,"[-0.129, -0.033]",-3.31,0.0093
+"Total Trip Chains","Physical Decline","Anger",-0.113,"[-0.163, -0.064]",-4.484,0.0001
+"Total Trip Chains","Physical Decline","Role Constraints",-0.077,"[-0.118, -0.036]",-3.647,0.0026
+"Total Trip Chains","Physical Decline","Low Informational Support",-0.077,"[-0.13, -0.025]",-2.911,0.036
+"Total Trip Chains","Physical Decline","Low Instrumental Support",-0.096,"[-0.147, -0.045]",-3.687,0.0023
+"Total Trip Chains","Physical Decline","Low Emotional Support",-0.08,"[-0.131, -0.029]",-3.08,0.0207
+"Total Trip Minutes","Social Isolation","Anxiety",-0.069,"[-0.11, -0.028]",-3.326,0.0088
+"Total Trip Minutes","Social Isolation","Anger",-0.108,"[-0.148, -0.068]",-5.266,0
+"Total Trip Minutes","Social Isolation","Role Constraints",-0.08,"[-0.119, -0.041]",-4.037,0.0005
+"Total Trips","Physical Decline","Cognitive Decline",-0.117,"[-0.163, -0.07]",-4.922,0
+"Total Trips","Physical Decline","Fatigue",-0.059,"[-0.099, -0.019]",-2.905,0.0367
+"Total Trips","Physical Decline","Anxiety",-0.121,"[-0.169, -0.073]",-4.925,0
+"Total Trips","Physical Decline","Depression",-0.094,"[-0.141, -0.047]",-3.95,0.0008
+"Total Trips","Physical Decline","Anger",-0.142,"[-0.19, -0.094]",-5.789,0
+"Total Trips","Physical Decline","Role Constraints",-0.09,"[-0.13, -0.05]",-4.379,0.0001
+"Total Trips","Physical Decline","Low Instrumental Support",-0.099,"[-0.149, -0.05]",-3.921,0.0009
+"Total Trips","Physical Decline","Low Emotional Support",-0.072,"[-0.122, -0.023]",-2.856,0.0429
+"Number of Trips AM Rush Hour","Physical Decline","Cognitive Decline",-0.098,"[-0.144, -0.051]",-4.102,0.0004
+"Number of Trips AM Rush Hour","Physical Decline","Anger",-0.096,"[-0.145, -0.048]",-3.898,0.001
+"Number of Trips AM Rush Hour","Physical Decline","Low Informational Support",-0.08,"[-0.131, -0.029]",-3.059,0.0222
+"Number of Trips < 15 Miles","Physical Decline","Cognitive Decline",-0.122,"[-0.168, -0.075]",-5.136,0
+"Number of Trips < 15 Miles","Physical Decline","Anxiety",-0.13,"[-0.178, -0.082]",-5.283,0
+"Number of Trips < 15 Miles","Physical Decline","Depression",-0.106,"[-0.153, -0.059]",-4.449,0.0001
+"Number of Trips < 15 Miles","Physical Decline","Anger",-0.147,"[-0.195, -0.099]",-5.992,0
+"Number of Trips < 15 Miles","Physical Decline","Role Constraints",-0.086,"[-0.126, -0.046]",-4.202,0.0003
+"Number of Trips < 15 Miles","Physical Decline","Low Instrumental Support",-0.092,"[-0.142, -0.043]",-3.639,0.0027
+"Minutes Per Chain","Physical Decline","Cognitive Decline",0.121,"[0.074, 0.167]",5.055,0
+"Minutes Per Chain","Physical Decline","Fatigue",0.096,"[0.056, 0.136]",4.696,0
+"Minutes Per Chain","Physical Decline","Anxiety",0.094,"[0.045, 0.142]",3.785,0.0015
+"Minutes Per Chain","Physical Decline","Depression",0.123,"[0.076, 0.17]",5.14,0
+"Minutes Per Chain","Physical Decline","Anger",0.079,"[0.03, 0.128]",3.178,0.0148
+"Minutes Per Chain","Physical Decline","Role Constraints",0.087,"[0.047, 0.128]",4.226,0.0002
+"Minutes Per Chain","Physical Decline","Low Informational Support",0.113,"[0.062, 0.164]",4.333,0.0001
+"Minutes Per Chain","Physical Decline","Low Instrumental Support",0.12,"[0.07, 0.17]",4.72,0
+"Minutes Per Chain","Physical Decline","Low Emotional Support",0.115,"[0.065, 0.164]",4.505,0.0001
+"Minutes Per Chain","Physical Decline","Social Isolation",0.089,"[0.041, 0.136]",3.652,0.0026
