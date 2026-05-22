@@ -126,3 +126,17 @@ dmypy.json
 .DS_Store
 
 /manuscript
+
+data/cleaned_monthly_driving_data.csv
+
+data/cognitive.csv
+
+data/demographics.csv
+
+data/mental.csv
+
+data/physical.csv
+
+data/social.csv
+
+data/subject_level_data_for_analysis.csv
