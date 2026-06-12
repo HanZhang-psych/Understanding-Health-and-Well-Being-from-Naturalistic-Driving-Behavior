@@ -1,0 +1,13 @@
+"IV","candidate_DV","candidate_beta_y1","n_sig_DVs_y1","other_DVs","n_obs_y1"
+"Average_speed","phys",-0.120004775773699,3,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2468
+"DaysDriving","phys",-0.101069518910069,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2471
+"DecelerationPer1000Miles","iso",0.0853581558383339,1,"ang|anx|cog|dep|emo|fati|info|ins|phys|socialrole",2469
+"MilesPerChain_n","cog",-0.0688290850786497,1,"ang|anx|dep|emo|fati|info|ins|iso|phys|socialrole",2465
+"MinutesPerTrip_n","phys",0.0891498215116089,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2467
+"PercentTripsAMPeak_n","socialrole",-0.0869729403266782,6,"ang|anx|cog|dep|emo|fati|info|ins|iso|phys",2465
+"PercentTripsAtNight_n","socialrole",0.0861302643477865,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|phys",2466
+"PercentTripsPMPeak_n","socialrole",0.106935460050816,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|phys",2469
+"Trips","phys",-0.104838440451428,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2469
+"TripsAMPeak","phys",-0.100575013020524,6,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2468
+"TripsAtNight","socialrole",0.0792406015243953,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|phys",2469
+"TripsLt15Miles","phys",-0.106699302158171,1,"ang|anx|cog|dep|emo|fati|info|ins|iso|socialrole",2469

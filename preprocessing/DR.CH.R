@@ -16,7 +16,7 @@ library(ggcorrplot)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # load data from csv
-CH_raw = read.csv('../../Data Files/CSV/DR.CH VALUES.csv')
+CH_raw = read.csv('../data/Data Files/CSV/DR.CH VALUES.csv')
 
 CH = CH_raw
 

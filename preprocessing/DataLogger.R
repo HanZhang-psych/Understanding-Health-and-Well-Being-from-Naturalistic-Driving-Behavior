@@ -36,8 +36,8 @@ outlier_z <- function(data, var, by = NULL, thresh = 3.5) {
 
 
 # load data from csv
-GPS_raw = read.csv(file = '../../Data Files/CSV/GPS_DataLogger_Final.csv')
-TOURMO_raw = read.csv(file = '../../Data Files/CSV/GPS_Tourmo_Final.csv')
+GPS_raw = read.csv(file = '../data/Data Files/CSV/GPS_DataLogger_Final.csv')
+TOURMO_raw = read.csv(file = '../data/Data Files/CSV/GPS_Tourmo_Final.csv')
 
 ########## Making GPS and Tourmo Data Consistent ##########
 # add source info
@@ -116,7 +116,7 @@ driving_data = bind_rows(gps, tourmo) %>% arrange(XID, Site, Year, Month)
 driving_data = gps %>% arrange(XID, Site, Year, Month)
 
 ############## Matching Monthly Driving Data with Study Interval ##############
-visits = read.csv(file = '../../Data Files/CSV/VISITS VALUEs.csv') %>% 
+visits = read.csv(file = '../data/Data Files/CSV/VISITS VALUEs.csv') %>% 
   mutate(VISITDATE = as.Date(VISITDATE, format = "%d-%b-%y")) %>%
   pivot_wider(values_from = VISITDATE, names_from = INTERVAL, names_prefix = "v")
 
@@ -158,16 +158,15 @@ driving_data %>% select(XID, Interval) %>% distinct() %>% count(Interval)
 # n of monthly driving data available for each interval
 driving_data %>% count(Interval) %>% mutate(Percent = n / sum(n) * 100)
 
+# select the baseline interval (0) and the first follow-up interval (1)
+driving_data = driving_data %>% 
+  filter(Interval %in% c(0, 1)) 
+
 n_raw = nrow(driving_data)
 
-# select the baseline interval (0) and the first follow-up interval (2)
-driving_data = driving_data %>% 
-  filter(Interval %in% c(0, 1, 2)) 
-
-# for each subject and each interval, there must be at least 3 months of driving data
-driving_data = driving_data %>% 
-  filter(FractionOfMonth == 1) %>%
-  filter(n() >= 3, .by = c(XID, Interval))
+# only full months
+driving_data = driving_data %>%
+  filter(FractionOfMonth == 1)
 
 n_after = nrow(driving_data)
 
@@ -177,8 +176,6 @@ n_after = nrow(driving_data)
 ## inspect the distribution of each measure and see if outlier removal is warranted
 
 ### Miles_n ###
-## 0 mile but > 0 trips? remove for now
-driving_data = driving_data %>% filter(Miles_n > 0 & Trips > 0)
 # adjust for partial data
 driving_data$Miles_n = driving_data$Miles_n / driving_data$FractionOfMonth 
 # outlier removal
