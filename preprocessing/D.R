@@ -16,8 +16,8 @@ library(ggcorrplot)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # load data from csv
-D_raw = read.csv('../../Data Files/CSV/DR.D VALUES.csv') 
-Age = read.csv('../../Data Files/CSV/Age_Calculated_from_VISITDate.csv') %>% 
+D_raw = read.csv('../data/Data Files/CSV/DR.D VALUES.csv') 
+Age = read.csv('../data/Data Files/CSV/Age_Calculated_from_VISITDate.csv') %>% 
   filter(INTERVAL==0) %>% select(XID, Age)
 
 D = D_raw

@@ -16,7 +16,7 @@ library(ggcorrplot)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # load data from csv
-MH_raw = read.csv('../../Data Files/CSV/DR.MH VALUES.csv')
+MH_raw = read.csv('../data/Data Files/CSV/DR.MH VALUES.csv')
 
 MH = MH_raw
 
@@ -127,7 +127,7 @@ ang = ang %>%
          MH_3C = case_when(MH_3C %in% c(-1,-2,-3)~NA, .default = MH_3C),
          MH_3D = case_when(MH_3D %in% c(-1,-2,-3)~NA, .default = MH_3D),
          MH_3E = case_when(MH_3E %in% c(-1,-2,-3)~NA, .default = MH_3E),
-         ang = (MH_3A + MH_3B + MH_3C + MH_3D + MH_3E)/4)
+         ang = (MH_3A + MH_3B + MH_3C + MH_3D + MH_3E)/5)
 
 # verify possible values
 unique(ang$ang) %>% sort(na.last = T)
