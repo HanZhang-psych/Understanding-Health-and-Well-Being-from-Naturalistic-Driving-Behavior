@@ -2,7 +2,7 @@
 
 This repository contains all analysis code for the manuscript. The pipeline implements a prospective exploratory-confirmatory design: driving data from each participant's first year predict health outcomes at the end of that year (Year 1, exploratory), and the same pairing for the second year forms the confirmatory dataset (Year 2). All scripts read from and write to paths relative to the repository root.
 
-> **Data availability.** The raw LongROAD participant-level data are controlled-access and not included in this repository. The preprocessing scripts are shared for transparency. Researchers who obtain the data from AAA can run the full pipeline in the order described below.
+> **Data availability.** The raw LongROAD participant-level data are controlled-access and not included in this repository. The preprocessing scripts are shared for transparency. Researchers who obtain the data from AAA can run the full pipeline in the order described below. To reproduce the paper's main results **without** individual-level data, see [`reproducibility/`](reproducibility/REPRODUCIBILITY.md), which ships shareable summary statistics and de-identified prediction errors.
 
 ---
 
@@ -63,6 +63,13 @@ This repository contains all analysis code for the manuscript. The pipeline impl
 ├── figs/                   Generated figures
 │
 ├── manuscript/             Manuscript drafts and versions
+│
+├── reproducibility/        Reproduce main results without individual-level data
+│   ├── REPRODUCIBILITY.md  Guide: what reproduces, how closely, how to run
+│   ├── summary_stats/      Covariance matrices, moments, item correlations (Option A)
+│   ├── prediction_errors/  De-identified per-subject squared errors (Option B)
+│   ├── reproduce_from_summary.R    Tables 4, S4, S5, Cronbach's alpha
+│   └── reproduce_prediction.R      Figures 5 and S1
 ```
 
 ---
