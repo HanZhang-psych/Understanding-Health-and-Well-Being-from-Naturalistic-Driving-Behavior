@@ -1,5 +1,5 @@
 ###############################################################################
-# plot_fig4_prediction.R
+# plot_fig4_ridge.R
 #
 # Panel A: Per-outcome MSE for four models (baseline, demo, driving, full).
 #          Point estimate = mean per-subject squared error; error bars = 95%
@@ -13,7 +13,7 @@
 ###############################################################################
 
 # Clear environment ONLY if no caller has pre-set the knobs below. This lets
-# plot_fig4_enet_supplement.R (and any other reuser) override
+# supplement_plot_enet.R (and any other reuser) override
 # PER_SUBJECT_DIR / SUMMARY_FILE / OUT_FILE before sourcing this script.
 if (!exists('PER_SUBJECT_DIR')) {
   rm(list = ls())

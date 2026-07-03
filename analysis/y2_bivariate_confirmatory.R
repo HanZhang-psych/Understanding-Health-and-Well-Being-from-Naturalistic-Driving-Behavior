@@ -5,8 +5,8 @@
 # p-value correction in the Y1 bivariate analysis. No additional pairs are tested.
 
 # Outputs:
-#   y2_confirmation_bivariate.csv  - confirmatory tests with replication flag
-#   y2_all_bivariate.csv           - all 288 Y2 tests, for reference / supplement
+#   output/y2_bivariate_sig.csv  - confirmatory tests with replication flag
+#   output/y2_bivariate_all.csv  - all 288 Y2 tests, for reference / supplement
 ###############################################################################
 
 rm(list = ls())

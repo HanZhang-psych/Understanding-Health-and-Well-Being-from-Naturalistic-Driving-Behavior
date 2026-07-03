@@ -11,7 +11,7 @@
 #     relationship of that DV in YEAR 2 (i.e., replicated == TRUE in the
 #     y2 multivariate confirmatory step).
 #   * Specificity score (Panel B) = % of "against" DVs significantly dominated
-#     in Y2, out of the 11 possible non-candidate DVs.
+#     in Y2, out of the 10 possible non-candidate DVs.
 
 ###############################################################################
 

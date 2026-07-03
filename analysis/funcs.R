@@ -1,14 +1,17 @@
 ###############################################################################
-# Shared variables and helper functions for the year-stratified pipeline.
+# Shared variables and helper functions for the exploratory -> confirmatory
+# pipeline.
 #
-# This is a near-copy of analysis/funcs.R. Differences vs. the original:
-#   1. `fit_lm()` and `fit_lavaan()` retain the same signatures, so the body
-#      of bivariate/multivariate code can be reused verbatim.
-#   2. A small helper `make_one_tailed_p()` is added to compute one-tailed
-#      p-values in a pre-specified direction for confirmatory tests.
+# Key helpers:
+#   * fit_lm()              - standardized bivariate regression (one IV, one DV,
+#                             demographic covariates).
+#   * fit_pathmodel_oneIV() - single-IV / multi-DV lavaan path model with
+#                             candidate-vs-other slope contrasts.
+#   * make_one_tailed_p()   - one-tailed p-value in a pre-specified direction,
+#                             used in the Year 2 confirmatory tests.
 #
-# The full discovery -> replication design is implemented in the calling
-# scripts; this file holds only utilities.
+# The full exploratory -> confirmatory design is implemented in the calling
+# scripts; this file holds only shared definitions and utilities.
 ###############################################################################
 
 library(Polychrome)
@@ -16,7 +19,7 @@ library(fastDummies)
 library(parameters)
 library(lavaan)
 
-# ---- Variable definitions (unchanged from analysis/funcs.R) ------------------
+# ---- Variable definitions ---------------------------------------------------
 ivs = c('DaysDriving',
         'Miles_n',
         "Trips",
@@ -104,7 +107,7 @@ safe_scale = function(x) {
 
 
 # ---- Linear model (per-year, raw-data) ---------------------------------------
-# Same signature as analysis/funcs.R::fit_lm. The IV/DV/covariates are scaled
+# The IV/DV/covariates are scaled
 # WITHIN the supplied data frame, so when this is called separately on Y1 vs Y2
 # subject-level data the standardization is within-year (and therefore
 # standardized betas are comparable across years).

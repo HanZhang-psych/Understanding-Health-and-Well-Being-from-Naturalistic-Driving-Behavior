@@ -1,5 +1,5 @@
 ###############################################################################
-# plot_fig4_enet_supplement.R
+# supplement_plot_enet.R
 # same as ridge version but with the elastic net CV errors instead of ridge. 
 ###############################################################################
 

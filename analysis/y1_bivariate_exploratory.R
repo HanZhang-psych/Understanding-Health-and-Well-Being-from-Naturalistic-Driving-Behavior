@@ -1,9 +1,9 @@
 ###############################################################################
 # Exploratory (Year 1) bivariate analyses.
 
-# Outputs (all in this folder):
-#   y1_all_bivariate.csv
-#   y1_significant_bivariate.csv
+# Outputs:
+#   output/y1_bivariate_all.csv
+#   output/y1_bivariate_sig.csv
 ###############################################################################
 
 rm(list = ls())

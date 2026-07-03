@@ -1,5 +1,5 @@
 ###############################################################################
-# multivariate_y2_confirmation.R
+# y2_multivariate_confirmatory.R
 #
 # Confirmation (Year 2) multivariate path analyses.
 #

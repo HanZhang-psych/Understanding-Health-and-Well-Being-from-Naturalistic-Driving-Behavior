@@ -1,5 +1,5 @@
 ###############################################################################
-# multivariate_y1_exploratory.R
+# y1_multivariate_exploratory.R
 #
 # Exploratory (Year 1) multivariate path analyses.
 #

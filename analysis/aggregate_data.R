@@ -1,5 +1,5 @@
 ###############################################################################
-# aggregate_data_yearly.R
+# aggregate_data.R
 #
 # Build subject-level data sets for the exploratory year 1 -> confirmatory year 2 analysis flow
 
@@ -13,9 +13,9 @@
 #     defined within Year 1 only, and likewise for Interval 1 (Year 2).
 #     We therefore do not re-do per-month outlier removal here; we only
 #     restrict to the relevant Interval, then aggregate to the subject level.
-#   * The driving variable set, demographic covariate set, and case-complete
-#     drop rule are the same as in the original pipeline, so the only thing
-#     that changes here is the temporal slicing.
+#   * The driving variable set and demographic covariate set are defined in
+#     funcs.R; this script only performs the temporal slicing and subject-level
+#     aggregation. No subjects are dropped here (see the missing-data policy).
 #
 # Outputs:
 #   ../data/y1_subject_level.csv
